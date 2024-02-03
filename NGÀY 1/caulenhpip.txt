@@ -1,0 +1,18 @@
+Câu lệnh pip
+
+PIP là từ viết tắt của “PIP Installs Packages” hoặc “Preferred Installer Program”. Đây là trình quản lý gói cho Python cho phép bạn quản lý các gói PyPI không có trong bản phân phối Python chuẩn. PyPI lưu trữ một bộ sưu tập phong phú các framework, công cụ và thư viện cho các ứng dụng trong lĩnh vực tài chính, y tế, giáo dục, dịch vụ khách hàng
+
+CÚ PHÁP SỬ DỤNG CÂU LỆNH PIP ĐỂ TẢI THƯ VIỆN
+    ```pip install + tên thư viện ```
+
+
+Tạo biến môi trường Python
+
+Virtual Environment trong python là môi trường ảo. Cũng giống như máy ảo (Virtual Machine), Virtual Environment thiết lập một môi trường ảo, cho phép bạn thoải mái thực hiện cài đặt rồi xóa, cài đặt các phiên bản khác nhau với các packages của Python mà không sợ làm ảnh hưởng đến những dự án đang có sẵn
+
+
+python3.12 : py + virtualenv + tên môi trường ảo ( thư mục )
+   ```py -m virtualenv .env```
+
+Active sử dụng môi trường ảo
+   ```.\env\Scripts\active```
